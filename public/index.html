@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>P R O C L A I M | Radio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Sarabun&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/main.css">
+    <!-- update the version number as needed -->
+    <script src="/__/firebase/8.8.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script src="/__/firebase/8.8.0/firebase-firestore.js"></script>
+    <script src="./scripts/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section class="home-hero">
+            <div class="home-head">
+                <div class="header-left">
+                    <img class="logo-img" src="./images/proclaim.webp" alt="logo" width="80" height="80">
+                    <p class="intro-text">P R O C L A I M <span class="home-tilder"> | </span> Radio</p>
+                </div>
+                <div class="header-right">
+                    <a href="https://proclaimug.org"><i id="ham-icn" class="bi bi bi-house-fill"></i></a>
+                </div>
+            </div>
+            <div class="home-intro">
+                <p class="intro-text">
+                    EXPERIENCE TODAY'S SERMON AND BE BLESSED
+                </p>
+            </div>
+            <div class="play-button">
+                <i id="play-icn" class="bi bi-play-circle"></i>
+            </div>
+            <div class="home-cta">
+                <p class="the-word">Tune in every Friday at 7 PM</p>
+            </div>
+        </section>
+        <div id="soundplayer" class="audio-player">
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+                id="music-player"></iframe>
+            <div
+                style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                <a href="https://soundcloud.com/word-publisher" title="Crome" target="_blank"
+                    style="color: #cccccc; text-decoration: none;">P R O C L A I M</a> · <a href="#"
+                    title="I Don&#x27;t Care ft. Ed Sheeran, Justin Bieber" target="_blank"
+                    style="color: #cccccc; text-decoration: none;">Bringing immortality to light</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="new-section">
+        <div class="mog-section">
+            <p class="intro-text">EVANGELIST DANIEL OPIO</p>
+        </div>
+    </section>
+    <footer class="radio-footer">
+        <div class="social-icons">
+            <a class="social-icon fb" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="social-icon yt" href="#"><i class="bi bi-youtube"></i></a>
+            <a class="social-icon inst" href="#"><i class="bi bi-instagram"></i></a>
+            <a class="social-icon twit" href="#"><i class="bi bi-twitter"></i></a>
+        </div>
+        <p class="bottom-name">P R O C L A I M</p>
+    </footer>
+    </div>
+</body>
+
+</html>
